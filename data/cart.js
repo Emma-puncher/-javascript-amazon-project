@@ -53,7 +53,7 @@ export function removeFromCart(productId) {
     saveToStorage();
 }
 
-export function updateDeliveryOption(productId, deliveryOption) {
+export function updateDeliveryOption(productId, deliveryOptionId) {
     let matchingItem;
 
     cart.forEach((cartItem) => {
